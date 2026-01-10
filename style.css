@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 /* Nav-logo */
@@ -80,3 +80,33 @@ body {
 }
 
 
+/* Hero-Section */
+.hero-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 55px;
+}
+
+/* Hero-Text-Content */
+.hero-container .hero-content h2 {
+    font-size: 45px;
+}
+
+.hero-container .hero-content p {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 12px 0;
+}
+
+/* Hero-Button */
+.hr-black-btn {
+    padding: 11px 40px;
+    background-color: black;
+}
+
+/* Hero-img */
+.hero-img img {
+    max-width: 440px;
+    vertical-align: middle;
+}
