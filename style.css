@@ -286,6 +286,13 @@ body {
 }
 
 .story-container
+.story-content-lf-img img ,
+.story-container
+.story-content-rg-img img {
+    width: 100%;
+}
+
+.story-container
 .story-content-lf,
 .story-container
 .story-content-rg {
@@ -308,14 +315,14 @@ body {
 
 .story-container
 .story-content-lf h3 {
-    max-width: 450px;
+    max-width: 420px;
     font-size: 24px;
     padding: 5px 30px 0;
 }
 
 .story-container
 .story-content-lf p {
-    max-width: 450px;
+    max-width: 420px;
     font-size: 14px;
     line-height: 24px;
     padding: 30px;
@@ -363,3 +370,85 @@ body {
 }
 
 
+
+/* Footer Sectoin */
+footer {
+    background-color: #01ACFD;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 100px 50px 60px 0;
+}
+
+.footer-container .footer-content-1 .footer-logo img {
+    background-color: #ffffff2b;
+    border-radius: 10%;
+    width: 100%;
+    padding: 5px;
+}
+
+.footer-container .footer-content-1 .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    max-width: 60px;
+    margin-bottom: 26px;
+}
+
+.footer-container .footer-content-1 .footer-logo h2 {
+    font-size: 25px;
+    line-height: 24px;
+}
+
+.footer-container .footer-content-1 p {
+    max-width: 350px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.footer-container .footer-content-2 {
+    color: #FFF;
+}
+
+.footer-container .footer-content-2 h4,
+.footer-container .footer-content-3 h4 {
+    margin-bottom: 17px;    
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-container .footer-content-2 p {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.footer-container .footer-content-3 h4 {
+    color: #FFF;
+}
+
+.footer-container .footer-content-3 .footer-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-container 
+.footer-content-3 
+.footer-icons .fb,
+.footer-icons .drib,
+.footer-icons .twi,  
+.footer-icons .gog {
+    max-width: 35px;
+}
+
+.footer-container 
+.footer-content-3 
+.footer-icons .fb img,
+.footer-icons .drib img,
+.footer-icons .twi img,  
+.footer-icons .gog img {
+    width: 100%;
+}
