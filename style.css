@@ -192,6 +192,13 @@ body {
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 900;
+    transition: all 0.2s linear;
+}
+
+.curriculum-container 
+.curriculum-content
+.curriculum-cards a:hover {
+    font-size: 14px;
 }
 
 /* Card-1 */
@@ -208,6 +215,12 @@ body {
     color: #43bdff;
 }
 
+.curriculum-container 
+.curriculum-content
+.curriculum-cards:nth-of-type(1):hover {
+    box-shadow: 0 0 5px #32b7ffbd;
+}
+
 /* Card-2 */
 .curriculum-container 
 .curriculum-content
@@ -222,6 +235,12 @@ body {
     color: #F0AA00;
 }
 
+.curriculum-container 
+.curriculum-content
+.curriculum-cards:nth-of-type(2):hover {
+    box-shadow: 0 0 5px #f0a800bc;
+}
+
 /* Card-3 */
 .curriculum-container 
 .curriculum-content
@@ -234,6 +253,12 @@ body {
 .curriculum-content
 .curriculum-cards:nth-of-type(1) a {
     color: #8700FF;
+}
+
+.curriculum-container 
+.curriculum-content
+.curriculum-cards:nth-of-type(3):hover {
+    box-shadow: 0 0 5px #8800ffac;
 }
 
 
@@ -298,6 +323,15 @@ body {
 .story-content-rg {
     background-color: #FFF;
     border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.098);
+    transition: all 0.3s linear;
+}
+
+.story-container
+.story-content-lf:hover,
+.story-container
+.story-content-rg:hover {
+    transform: scale(1.02);
 }
 
 .story-container
@@ -311,6 +345,14 @@ body {
     background-color: #3cd7e8f1;
     color: #FFF;
     font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.story-container
+.story-content-lf .lf-btn:hover {
+    background-color: #3cd7e8;
+    transform: scale(1.01);
 }
 
 .story-container
@@ -346,11 +388,25 @@ body {
     background-color: #96b226ed;
     color: #FFF;
     font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s linear;
 }
+
+.story-container
+.story-content-rg .rg-btn:hover {
+    background-color: #96b226;
+    transform: scale(1.01);
+}
+
 
 .story-container
 .story-content-rg .rg-btn-2 {
     background-color: #5d58f0e7;
+}
+
+.story-container
+.story-content-rg .rg-btn-2:hover {
+    background-color: #5d58f0;
 }
 
 .story-container
