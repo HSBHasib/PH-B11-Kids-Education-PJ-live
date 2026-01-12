@@ -224,7 +224,7 @@
 
     /* Hero-img */
     .hero-img img {
-        max-width: 340px;
+        width: 90%;
     }
 
 
@@ -348,14 +348,208 @@
     }
 }
 
-
-
-
-
-
-
-
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+
+    .section-center {
+        width: 95%;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .nav-icon {
+        display: initial;
+    }
+
+    /* Header-Section | 'Navber'*/
+    
+    .nav-container .nav-logo .logo-img img {
+        max-width: 40px;
+    }
+
+    .nav-container .nav-logo h1 {
+        font-size: 30px;
+    }
+
+    .nav-icon i {
+        font-size: 25px;
+        transition: all 0.3s linear;
+    }
+
+    .nav-icon:active {
+        transform: scale(1.2);
+    }
+
+    /* Hero-Section */
+    .hero-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .hero-container .hero-content {
+        padding: 0 35px;
+    }
+
+    .hero-container .hero-content h2 {
+        font-size: 45px;
+    }
+    
+    .hero-container .hero-content p {
+        font-size: 16px;
+    }
+
+    /* Hero-img */
+    .hero-img img {
+        max-width: 440px;
+    }
+
+    /* Standard Curriculum Section */
+    .curriculum-container {
+        padding: 50px 0;
+    }
+
+    .curriculum-container h2 {
+        font-size: 28px;
+    }
+
+    /* Curriculum-Cards */
+    .curriculum-container .curriculum-content {
+        padding: 25px 0;
+    }
+
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards {
+        max-width: 92%;
+        padding: 35px 15px 25px;
+    }
+
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards h3 {
+        font-size: 24px;
+        margin: 25px 0 15px;
+    }
+
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards p {
+        font-size: 14px;
+        max-width: 85%;
+        margin: 0 auto 25px;
+    }
+
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards a {
+        font-size: 14px;
+    }
+
+    .curriculum-icons {
+        display: none !important; 
+    }
+
+
+
+    /* Stories-Section */
+    #story {
+        padding: 15px 0 40px;
+    }
+
+    #story h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .story-container
+    .story-content-lf .lf-btn {
+        left: 25px;
+        padding: 14px 18px;
+    }
+
+    .story-container
+    .story-content-lf h3 {
+        max-width: 100%;
+        font-size: 25px;
+        padding: 5px 25px 0;
+    }
+
+    .story-container
+    .story-content-lf p {
+        max-width: 100%;
+        font-size: 13px;
+        padding: 15px 25px;
+    }
+
+    .story-container-rg {
+        grid-gap: 18px 10px;
+    }
+
+    .story-container
+    .story-content-rg .rg-btn {
+        left: 15px;
+        padding: 10px 20px;
+    }
+
+    .story-container
+    .story-content-rg h5 {
+        max-width: 100%;
+        font-size: 15px;
+        padding: 2px 15px 30px;
+        line-height: 24px;
+    }
+
+    #story .sc-btn .sc-black-btn {
+        padding: 12px 55px;
+        border-radius: 50px;
+    }
+
+    #story .sc-btn {
+        padding: 30px 0 0;
+    }
+
+
+
+    /* Footer Section */
+    .footer-container {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+        padding: 55px 15px 65px;
+    }
+
+    .footer-container .footer-content-1 .footer-logo h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .footer-container .footer-content-1 p {
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    .footer-container .footer-content-2 h4,
+    .footer-container .footer-content-3 h4 {
+        font-size: 19px;
+    }
+
+    .footer-container .footer-content-2 p {
+        font-size: 14px;
+    }
+
+    .footer-container 
+    .footer-content-3 
+    .footer-icons .fb,
+    .footer-icons .drib,
+    .footer-icons .twi,  
+    .footer-icons .gog {
+        max-width: 35px;
+    }
+
+}
 
 
