@@ -1,0 +1,357 @@
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .section-center {
+        width: 92%;
+    }
+
+    .btn:active {
+        transform: scale(1.03);
+    }
+
+    /* Header-Section | 'Navber'*/
+    .nav-container .nav-logo {
+        gap: 4px;
+    }
+
+    .nav-container .nav-content ul {
+        gap: 25px;
+    }
+
+    .nav-container .nav-content ul li,
+    .btn {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 10px 50px;
+    }
+
+    /* Hero-Section */
+    .hero-container {
+        gap: 40px;
+    }
+
+    .hero-container .hero-content h2 {
+        font-size: 32px;
+    }
+    
+    .hero-container .hero-content p {
+        font-size: 15px;
+        padding: 14px 0;
+    }
+
+    /* Hero-Button */
+    .hr-black-btn , .sc-black-btn{
+        padding: 11px 35px;
+    }
+
+    /* Hero-img */
+    .hero-img img {
+        max-width: 360px;
+    }
+
+
+
+    /* Standard Curriculum Section */
+    /* Curriculum-Cards */
+    .curriculum-container .curriculum-content {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards a {
+        font-size: 14px;
+    }
+
+    /* Card-1 */
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards:nth-of-type(1):active {
+        box-shadow: 0 0 5px #32b7ffcc;
+    }
+
+    /* Card-2 */
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards:nth-of-type(2):active {
+        box-shadow: 0 0 5px #f0a800e0;
+    }
+
+    /* Card-3 */
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards:nth-of-type(3):active {
+        box-shadow: 0 0 5px #8800ffac;
+    }
+
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards:active,
+    .curriculum-container 
+    .curriculum-icons 
+    .left-arrow:active,
+    .curriculum-container 
+    .curriculum-icons 
+    .right-arrow:active
+    {
+        transform: scale(1.03);
+    }
+
+
+
+    /* Stories-Section */
+    #story {
+        padding: 20px 0 50px;
+    }
+
+    #story h2 {
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+
+    .story-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 18px;
+    }
+
+    .story-container
+    .story-content-lf .lf-btn:active {
+        background-color: #3cd7e8;
+        transform: scale(1.01);
+    }
+
+    .story-container
+    .story-content-rg .rg-btn:active {
+        background-color: #96b226;
+        transform: scale(1.01);
+    }
+
+    #story .sc-btn .sc-black-btn {
+        padding: 12px 60px;
+    }
+
+    .story-container
+    .story-content-lf:active,
+    .story-container
+    .story-content-rg:active {
+        transform: scale(1.02);
+    }
+
+
+    /* Footer Section */
+    .footer-container .footer-content-1 .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-container .footer-content-1 p {
+        max-width: 300px;
+        font-size: 14px;
+    }
+
+    .footer-container .footer-content-2 h4,
+    .footer-container .footer-content-3 h4 {
+        margin-bottom: 15px;    
+    }
+
+    .footer-container .footer-content-2 p {
+        margin-bottom: 8px;
+    }
+
+    .footer-container 
+    .footer-content-3 
+    .footer-icons .fb,
+    .footer-icons .drib,
+    .footer-icons .twi,  
+    .footer-icons .gog {
+        max-width: 30px;
+    }
+
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .section-center {
+        width: 95%;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .nav-icon {
+        display: initial;
+    }
+
+    /* Header-Section | 'Navber'*/
+    
+    .nav-container .nav-logo .logo-img img {
+        max-width: 40px;
+    }
+
+    .nav-container .nav-logo h1 {
+        font-size: 26px;
+    }
+
+    .nav-icon i {
+        font-size: 22px;
+        transition: all 0.3s linear;
+    }
+
+    .nav-icon:active {
+        transform: scale(1.2);
+    }
+
+    /* Hero-Section */
+    .hero-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .hero-container .hero-content h2 {
+        font-size: 28px;
+    }
+    
+    .hero-container .hero-content p {
+        font-size: 14px;
+    }
+
+    /* Hero-img */
+    .hero-img img {
+        max-width: 340px;
+    }
+
+
+
+    /* Standard Curriculum Section */
+    .curriculum-container {
+        padding: 50px 0;
+    }
+
+    .curriculum-container h2 {
+        font-size: 28px;
+    }
+
+    /* Curriculum-Cards */
+    .curriculum-container .curriculum-content {
+        padding: 25px 0;
+    }
+
+    .curriculum-container 
+    .curriculum-content
+    .curriculum-cards {
+        max-width: 92%;
+        padding: 35px 15px 25px;
+    }
+
+    .curriculum-icons {
+        display: none !important; 
+    }
+
+
+
+    /* Stories-Section */
+    #story {
+        padding: 15px 0 40px;
+    }
+
+    #story h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .story-container
+    .story-content-lf .lf-btn {
+        left: 25px;
+        padding: 14px 18px;
+    }
+
+    .story-container
+    .story-content-lf h3 {
+        max-width: 100%;
+        font-size: 24px;
+        padding: 5px 25px 0;
+    }
+
+    .story-container
+    .story-content-lf p {
+        max-width: 100%;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+    .story-container-rg {
+        grid-gap: 18px 10px;
+    }
+
+    .story-container
+    .story-content-rg .rg-btn {
+        left: 15px;
+        padding: 10px 20px;
+    }
+
+    .story-container
+    .story-content-rg h5 {
+        max-width: 100%;
+        font-size: 13px;
+        padding: 2px 15px 30px;
+        line-height: 24px;
+    }
+
+    #story .sc-btn .sc-black-btn {
+        padding: 10px 50px;
+        border-radius: 50px;
+    }
+
+    #story .sc-btn {
+        padding: 30px 0 0;
+    }
+
+
+
+    /* Footer Section */
+    .footer-container {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+        padding: 55px 15px 65px;
+    }
+
+    .footer-container .footer-content-1 p {
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    .footer-container .footer-content-2 h4,
+    .footer-container .footer-content-3 h4 {
+        font-size: 19px;
+    }
+
+    .footer-container .footer-content-2 p {
+        font-size: 14px;
+    }
+
+    .footer-container 
+    .footer-content-3 
+    .footer-icons .fb,
+    .footer-icons .drib,
+    .footer-icons .twi,  
+    .footer-icons .gog {
+        max-width: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+
