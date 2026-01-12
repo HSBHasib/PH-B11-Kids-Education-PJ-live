@@ -210,8 +210,12 @@
         gap: 15px;
     }
 
+    .hero-container .hero-content {
+        padding: 0 20px;
+    }
+
     .hero-container .hero-content h2 {
-        font-size: 28px;
+        font-size: 32px;
     }
     
     .hero-container .hero-content p {
